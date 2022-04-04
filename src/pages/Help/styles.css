@@ -1,0 +1,55 @@
+
+.buttons-container {
+    grid-area: buttons;
+    justify-content: space-between;
+}
+.buttons-container a.Instagram{
+    animation: fadeInRight;
+    animation-duration: 2s;
+    color: var(--color-text-title);
+    background:#ebebeb41;
+}
+.buttons-container a.Instagram:hover{
+    background: #d2196f50;
+
+}
+.buttons-container a.Facebook{
+    animation: fadeInLeft;
+    animation-duration: 2s;
+    color: var(--color-text-title);
+    background:#ebebeb41;
+}
+
+.buttons-container a.Facebook:hover{
+    background: #1976d250;
+
+}
+.buttons-container a.vakinha{
+    animation: fadeInLeft;
+    animation-duration: 2s;
+   color: var(--color-text-title);
+    background:#ecf3ef;
+}
+.buttons-container a.vakinha:hover{
+    background:#c9f1db;
+
+
+}
+.buttons-container a.Pix{
+    animation: fadeInRight;
+    animation-duration: 2s;
+    color: var(--color-text-title);
+    background:#ebebeb41;
+    font-size: 1.4rem;
+}
+
+@media (max-width: 700px){
+    main {
+        margin: 3.2rem auto;
+        width: 90%;
+    }
+    .buttons-container a {
+        width: 18rem;
+        margin-right: 1rem;
+    }
+}
